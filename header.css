@@ -1,0 +1,32 @@
+.header-main {
+  display: grid;
+  height: 80px;
+  grid-template-columns: 2fr 1fr;
+  padding: 0px 160px 0px 160px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 192px;
+  height: 36px;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  color: rgb(85, 85, 85);
+}
+.nav-links {
+  display: flex;
+  font-size: 16px;
+  margin-left: 40px;
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+.flag-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
